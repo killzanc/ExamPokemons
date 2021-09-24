@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Bangers';
+    font-style: normal;
+    font-weight: 400;
+    src:url('../fonts/bangers-v13-latin-regular.woff2') format('woff2'),
+        url('../fonts/bangers-v13-latin-regular.woff') format('woff');
+}
+body{
+    background-color: mediumslateblue;
+    font-family: 'Bangers';
+    }
+.linkBtn{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 40px;
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid #ff3f3f;
+    background-color: rgb(255, 63, 63);
+}
+.card{
+    margin-top: 50px;
+}
+.linkBtn:hover{
+    background-color: white;
+    transition: 0.7s;
+}
+.link:hover{
+    color:#ffffff;
+}
+.link{
+    font-size: 30px;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+ 
+ .item{
+    border: 1px solid #ff5d5d;
+    border-radius: 5px;
+    width: 250px;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+} 
+.box{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+.btn{
+    display: flex;
+    margin: 7px;
+    background-color: rgb(255, 63, 63);
+    border: #ff3f3f;
+    margin-top: 50px;
+}
